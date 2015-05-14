@@ -1,0 +1,22 @@
+{
+  "name": "framer-module",
+  "version": "0.0.1",
+  "description": "My Framer.js module.",
+  "main": "index.js",
+  "dependencies": {
+    "framer-device": "peteschaffner/framer-uilabel"
+  },
+  "devDependencies": {
+    "framerify": "peteschaffner/framerify"
+  },
+  "keywords": [
+    "prototyping",
+    "framerjs"
+  ],
+  "browserify": {
+    "transform": [
+      "babelify",
+      "framerify"
+    ]
+  }
+}
