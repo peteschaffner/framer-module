@@ -49,10 +49,12 @@
   </head>
   <body>
     <script src="http://builds.framerjs.com/latest/framer.js"></script>
-    <script src="bundle.js"></script>
+    <script src=".bundle.js"></script>
 
     <script>
-      var framerModuleLabel = require('framer-module')
+      var RainbowLabel = require('./index.js')
+
+      new RainbowLabel({ text: "Rainbow Label!" }).center()
     </script>
   </body>
 </html>
