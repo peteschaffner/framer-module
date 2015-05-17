@@ -4,7 +4,7 @@
   "description": "My Framer.js module.",
   "main": "index.js",
   "dependencies": {
-    "framer-uilabel": "peteschaffner/framer-uilabel"
+    "framer-webview": "peteschaffner/framer-webview"
   },
   "devDependencies": {
     "framer-cli": "peteschaffner/framer-cli"
