@@ -1,7 +1,7 @@
 
-var Webview = require('framer-webview')
+var UILabel = require('framer-uilabel')
 
-module.exports = class RainbowWebview extends Webview {
+module.exports = class RainbowLabel extends UILabel {
   constructor(opts={}) {
     super(opts);
 
