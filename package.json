@@ -1,19 +1,29 @@
 {
   "name": "framer-module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "My Framer.js module.",
-  "main": "index.js",
-  "dependencies": {
-    "framer-uilabel": "peteschaffner/framer-uilabel"
+  "author": {
+    "name": "Pete Schaffner",
+    "email": "pjschaffner@gmail.com"
   },
-  "devDependencies": {
-    "framer-cli": "peteschaffner/framer-cli"
-  },
-  "scripts": {
-    "start": "framer --module"
-  },
+  "license": "MIT",
   "keywords": [
     "prototyping",
     "framerjs"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/peteschaffner/framer-module.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "framer-uilabel": "^0.1.0"
+  },
+  "devDependencies": {
+    "framer-cli": "^0.1.0"
+  },
+  "scripts": {
+    "start": "framer preview"
+  },
+  "framer": { "type": "module" }
 }
